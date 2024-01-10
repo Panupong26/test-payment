@@ -8,11 +8,7 @@ function App() {
   return (
     <main className="App  relative">
       <Routes>
-        <Route path="/" element={<JuristicFormRequestPage/>}>
-          <Route path=":step">
-            <Route path=":status"/>
-          </Route>
-        </Route>
+        <Route path="/:step/:status" element={<JuristicFormRequestPage/>}/>
       </Routes>
     </main>
   );

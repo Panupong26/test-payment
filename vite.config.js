@@ -28,5 +28,5 @@ export default defineConfig({
 
   ],
 
-  base: "/test-payment-web/"
+  //base: "/test-payment-web/"
 });
