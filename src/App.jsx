@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-const JuristicFormRequestPage = lazy(() => import("./pages/population/tourbusiness/juristic/juristic-request-form"));
+import JuristicFormRequestPage from "./pages/population/tourbusiness/juristic/juristic-request-form";
 
 
 function App() {

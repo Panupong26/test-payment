@@ -25,5 +25,8 @@ export default defineConfig({
     }),
     react(),
     reactRefresh(),
+
   ],
+
+  base: "/test-payment-web/"
 });
